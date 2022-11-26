@@ -222,4 +222,4 @@ y_final = xgb.predict(test_data)
 
 y_final
 df_test["class"] = pd.DataFrame(y_final)
-df_test.to_csv("ME19B084_Ashish_predictions.csv", index = False)
+df_test.to_csv("predictions.csv", index = False)
